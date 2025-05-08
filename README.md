@@ -19,12 +19,11 @@
 ```
 product-manual-assistant/
 │
-├── app.py                # Main Streamlit app
-├── rag_pipeline.py       # Handles embedding, storage, and retrieval
-├── utils.py              # Helper functions for PDF/text extraction
-├── qdrant_client.py      # Qdrant connection & vector DB logic
-├── requirements.txt      # Python dependencies
-└── README.md             # You're reading it!
+├── CODE 
+|    ├── main.py         # Main Streamlit app, Handles embedding, storage, and retrieval
+|    ├── upload.py       # Helper functions for PDF/text extraction
+|    ├── response.py     # OpenAI API to retrive tokens
+└── README.md            # You're reading it!
 ```
 
 ---
